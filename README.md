@@ -1,6 +1,7 @@
-# User.java / Role.java
-### server 띄우면 console에 아래와 같이 출력된다.  
->Hibernate: 
+## User.java / Role.java
+server 띄우면 console에 아래와 같이 출력된다.    
+
+> Hibernate: 
     
     drop table role if exists
 Hibernate: 
@@ -45,3 +46,5 @@ Hibernate:
        add constraint FK55itppkw3i07do3h7qoclqd4k 
        foreign key (user_id) 
        references user
+       
+- localhost:8080 으로 접속하면 localhost:8080/login 화면으로 이동되고 login form이 나타난다. (spring security)
