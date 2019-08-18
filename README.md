@@ -60,7 +60,9 @@ H2 접속을 위해 SecurityConfiguration.java 클래스에 아래와 같이 설
 - CSRF 중지
 - X-Frame-Options in Spring Security 중지
 
-- security login form이 안뜨고 바로 index.html page로 이동되는 상황 ( SecurityConfiguration.java의 setting이 문제 )
+- security login form이 안뜨고 바로 index.html page로 이동되는 상황 ( SecurityConfiguration.java의 setting이 문제 )  
+2019-08-18  
+- id,pw 받고, 로그인 시 No AuthenticationProvider found for org.springframework.security.authentication.UsernamePasswordAuthenticationToken
 
 ## Memo
 - 2019.08.18 User.java, Role.java (x) Account.java 사용 중
