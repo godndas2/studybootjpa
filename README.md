@@ -1,4 +1,4 @@
-## User.java / Role.java
+## Springboot 2.x / SpringSecurity / Jpa / H2 / Oauth2.0
 server 띄우면 console에 아래와 같이 출력된다.    
 
 > Hibernate: 
@@ -61,4 +61,7 @@ H2 접속을 위해 SecurityConfiguration.java 클래스에 아래와 같이 설
 - X-Frame-Options in Spring Security 중지
 
 - security login form이 안뜨고 바로 index.html page로 이동되는 상황 ( SecurityConfiguration.java의 setting이 문제 )
+
+## Memo
+- 2019.08.18 User.java, Role.java (x) Account.java 사용 중
 
