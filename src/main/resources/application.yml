@@ -12,7 +12,7 @@ spring:
     properties:
       hibernate:
         format_sql: true
-  security:
-    user:
-      name: halfdev
-      password: 1111
+#  security:
+#    user:
+#      name: halfdev
+#      password: 1234
